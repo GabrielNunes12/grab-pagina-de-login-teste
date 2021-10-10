@@ -43,6 +43,15 @@
   cursor: pointer;
 }
 
+.campo-imagens {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  padding-left: 390px;
+  height: 560px;
+  margin-top: -40rem;
+}
+
 @media screen and (min-height: 720px) {
 
   .campo-login .img-logo-grab {
@@ -81,5 +90,60 @@
     border-radius: 0.5rem;
     padding: 3px;
     cursor: pointer;
+  }
+  .campo-imagens {
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -55rem;
+    padding-right: 15vh;
+  }
+}
+
+@media screen and (min-height: 1080px) {
+
+  .campo-login .img-logo-grab {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 5rem;
+    width: 10rem;
+    margin: 0 auto;
+  }
+  
+  .campo-login {
+    background-color: #4E5BEE;
+    height: 1080px;
+    width: 500px;
+  }
+  
+  .inputs-login {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 20px;
+    width: 20rem;
+    margin: 0 auto;
+  }
+  
+  .inputs-login .input{
+    border-radius: 20px;
+    padding: 3px;
+    border: azure solid;
+  }
+  
+  .inputs-login .btn-logar {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 3px;
+    cursor: pointer;
+  }
+  .campo-imagens {
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -55rem;
+    padding-right: 40vh;
   }
 }
