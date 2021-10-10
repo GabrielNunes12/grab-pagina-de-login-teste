@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.campo-login .img-logo-grab {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  height: 5rem;
+  width: 7rem;
+  margin: 0 auto;
+}
+
+.campo-login {
+  background-color: #4E5BEE;
+  height: 697px;
+  width: 500px;
+}
+
+.inputs-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 20px;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.inputs-login .input{
+  border-radius: 20px;
+  padding: 3px;
+  border: azure solid;
+}
+
+.inputs-login .btn-logar {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 3px;
+  cursor: pointer;
+}
